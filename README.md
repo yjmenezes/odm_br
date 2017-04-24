@@ -1,5 +1,5 @@
 # odm_br
-Open Drome Map dataset with images and  gcp_list.txt 85MB
+Open Drone Map dataset with images and  gcp_list.txt 85MB
 
 Canon PowerShot SX260HS focal 4.5mm wxh 4000x3000 focal ~= 2904 pixel
 GSD: 2.42cm  
