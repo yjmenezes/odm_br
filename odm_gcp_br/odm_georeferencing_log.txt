@@ -1,0 +1,158 @@
+/mnt/odm/OpenDroneMap/build/bin/odm_georef_log.txt
+Arguments given
+-bundleFile
+/mnt/odm/odm_gcp_br/opensfm/bundle_r000.out
+-imagesPath
+/mnt/odm/odm_gcp_br/images_resize
+-imagesListPath
+/mnt/odm/odm_gcp_br/opensfm/list_r000.out
+-bundleResizedTo
+2400
+-inputFile
+/mnt/odm/odm_gcp_br/odm_texturing/odm_textured_model.obj
+-outputFile
+/mnt/odm/odm_gcp_br/odm_texturing/odm_textured_model_geo.obj
+-inputPointCloudFile
+/mnt/odm/odm_gcp_br/opensfm/depthmaps/merged.ply
+-outputPointCloudFile
+/mnt/odm/odm_gcp_br/odm_georeferencing/odm_georeferenced_model.ply
+-verbose
+-logFile
+/mnt/odm/odm_gcp_br/odm_georeferencing/odm_georeferencing_log.txt
+-georefFileOutputPath
+/mnt/odm/odm_gcp_br/odm_georeferencing/odm_georeferencing_model_geo.txt
+-gcpFile
+/mnt/odm/odm_gcp_br/gcp_list.txt
+-outputCoordFile
+/mnt/odm/odm_gcp_br/odm_georeferencing/coords.txt
+
+Reading cameras from: /mnt/odm/odm_gcp_br/opensfm/bundle_r000.out
+Images location is set to: /mnt/odm/odm_gcp_br/images_resize
+Reading image list from: /mnt/odm/odm_gcp_br/opensfm/list_r000.out
+Bundle resize value is set to: 2400
+Reading textured mesh from: /mnt/odm/odm_gcp_br/odm_texturing/odm_textured_model.obj
+Writing output to: /mnt/odm/odm_gcp_br/odm_texturing/odm_textured_model_geo.obj
+Reading point cloud from: /mnt/odm/odm_gcp_br/opensfm/depthmaps/merged.ply
+Writing output to: /mnt/odm/odm_gcp_br/odm_georeferencing/odm_georeferenced_model.ply
+Log file path was set to: /mnt/odm/odm_gcp_br/odm_georeferencing/odm_georeferencing_log.txt
+Georef file output path is set to: /mnt/odm/odm_gcp_br/odm_georeferencing/odm_georeferencing_model_geo.txt
+Reading GCPs from: /mnt/odm/odm_gcp_br/gcp_list.txt
+Exporting cameras georeferenced gps positions to: /mnt/odm/odm_gcp_br/odm_georeferencing/coords.txt
+
+Reading following GCPs from file:
+x_: 658528 y_: 7.167e+06 z_: 890.636 pixelX_: 1476 pixelY_: 140 image: IMG_5349.JPG
+x_: 658528 y_: 7.167e+06 z_: 890.636 pixelX_: 1094 pixelY_: 653 image: IMG_5350.JPG
+x_: 658528 y_: 7.167e+06 z_: 890.636 pixelX_: 1310 pixelY_: 1139 image: IMG_5351.JPG
+x_: 658546 y_: 7.16699e+06 z_: 892.227 pixelX_: 1462 pixelY_: 202 image: IMG_5350.JPG
+x_: 658546 y_: 7.16699e+06 z_: 892.227 pixelX_: 1681 pixelY_: 716 image: IMG_5351.JPG
+x_: 658546 y_: 7.16699e+06 z_: 892.227 pixelX_: 1602 pixelY_: 1341 image: IMG_5352.JPG
+x_: 658546 y_: 7.16699e+06 z_: 892.227 pixelX_: 2211 pixelY_: 273 image: IMG_5356.JPG
+x_: 658546 y_: 7.16699e+06 z_: 892.227 pixelX_: 2131 pixelY_: 948 image: IMG_5357.JPG
+x_: 658546 y_: 7.16699e+06 z_: 892.227 pixelX_: 2049 pixelY_: 1346 image: IMG_5358.JPG
+x_: 658581 y_: 7.16699e+06 z_: 890.855 pixelX_: 1636 pixelY_: 512 image: IMG_5352.JPG
+x_: 658581 y_: 7.16699e+06 z_: 890.855 pixelX_: 1623 pixelY_: 1070 image: IMG_5353.JPG
+x_: 658581 y_: 7.16699e+06 z_: 890.855 pixelX_: 2073 pixelY_: 80 image: IMG_5354.JPG
+x_: 658581 y_: 7.16699e+06 z_: 890.855 pixelX_: 2051 pixelY_: 696 image: IMG_5355.JPG
+x_: 658581 y_: 7.16699e+06 z_: 890.855 pixelX_: 2156 pixelY_: 1129 image: IMG_5356.JPG
+x_: 658581 y_: 7.16699e+06 z_: 890.855 pixelX_: 2099 pixelY_: 1693 image: IMG_5357.JPG
+x_: 658527 y_: 7.16696e+06 z_: 894.482 pixelX_: 2188 pixelY_: 683 image: IMG_5350.JPG
+x_: 658527 y_: 7.16696e+06 z_: 894.482 pixelX_: 1402 pixelY_: 492 image: IMG_5357.JPG
+x_: 658527 y_: 7.16696e+06 z_: 894.482 pixelX_: 1358 pixelY_: 978 image: IMG_5358.JPG
+x_: 658581 y_: 7.16696e+06 z_: 892.68 pixelX_: 1267 pixelY_: 125 image: IMG_5354.JPG
+x_: 658581 y_: 7.16696e+06 z_: 892.68 pixelX_: 1292 pixelY_: 747 image: IMG_5355.JPG
+x_: 658581 y_: 7.16696e+06 z_: 892.68 pixelX_: 1429 pixelY_: 1186 image: IMG_5356.JPG
+x_: 658581 y_: 7.16696e+06 z_: 892.68 pixelX_: 1408 pixelY_: 1747 image: IMG_5357.JPG
+x_: 658551 y_: 7.16694e+06 z_: 893.72 pixelX_: 1021 pixelY_: 462 image: IMG_5356.JPG
+x_: 658551 y_: 7.16694e+06 z_: 893.72 pixelX_: 1024 pixelY_: 1103 image: IMG_5357.JPG
+x_: 658551 y_: 7.16694e+06 z_: 893.72 pixelX_: 1020 pixelY_: 1523 image: IMG_5358.JPG
+
+The calculated easting offset for the georeferenced system: 658556
+The calculated northing offset for the georeferenced system: 7.16698e+06
+
+Recalculated GCPs with offset:
+x_: -27.639 y_: 27.098 z_: 890.636
+x_: -27.639 y_: 27.098 z_: 890.636
+x_: -27.639 y_: 27.098 z_: 890.636
+x_: -9.635 y_: 12.076 z_: 892.227
+x_: -9.635 y_: 12.076 z_: 892.227
+x_: -9.635 y_: 12.076 z_: 892.227
+x_: -9.635 y_: 12.076 z_: 892.227
+x_: -9.635 y_: 12.076 z_: 892.227
+x_: -9.635 y_: 12.076 z_: 892.227
+x_: 24.621 y_: 12.568 z_: 890.855
+x_: 24.621 y_: 12.568 z_: 890.855
+x_: 24.621 y_: 12.568 z_: 890.855
+x_: 24.621 y_: 12.568 z_: 890.855
+x_: 24.621 y_: 12.568 z_: 890.855
+x_: 24.621 y_: 12.568 z_: 890.855
+x_: -29.159 y_: -16.979 z_: 894.482
+x_: -29.159 y_: -16.979 z_: 894.482
+x_: -29.159 y_: -16.979 z_: 894.482
+x_: 25.16 y_: -18.179 z_: 892.68
+x_: 25.16 y_: -18.179 z_: 892.68
+x_: 25.16 y_: -18.179 z_: 892.68
+x_: 25.16 y_: -18.179 z_: 892.68
+x_: -5.454 y_: -33.036 z_: 893.72
+x_: -5.454 y_: -33.036 z_: 893.72
+x_: -5.454 y_: -33.036 z_: 893.72
+
+Reading mesh file /mnt/odm/odm_gcp_br/odm_texturing/odm_textured_model.obj
+
+Successfully loaded /mnt/odm/odm_gcp_br/odm_texturing/odm_textured_model.obj.
+Position in model for gcp 1: x=-23.9342 y=-17.49 z=74.7416
+Position in model for gcp 2: x=-23.9267 y=-17.4336 z=74.7264
+Position in model for gcp 3: x=-23.9164 y=-17.4142 z=74.7192
+Position in model for gcp 4: x=-4.13292 y=-6.21603 z=72.3027
+Position in model for gcp 5: x=-4.1594 y=-6.23953 z=72.3043
+Position in model for gcp 6: x=-4.17611 y=-6.2292 z=72.3142
+Position in model for gcp 7: x=-4.18214 y=-6.20806 z=72.324
+Position in model for gcp 8: x=-4.15681 y=-6.19193 z=72.3201
+Position in model for gcp 9: x=-4.17915 y=-6.21106 z=72.3217
+Position in model for gcp 10: x=28.5864 y=-12.6382 z=73.4387
+Position in model for gcp 11: x=28.5714 y=-12.6207 z=73.4349
+Position in model for gcp 12: x=28.6846 y=-12.5311 z=73.4383
+Position in model for gcp 13: x=28.5694 y=-12.5044 z=73.4247
+Position in model for gcp 14: x=28.5576 y=-12.5184 z=73.4244
+Position in model for gcp 15: x=28.494 y=-12.6013 z=73.4281
+Position in model for gcp 16: x=-17.8024 y=24.6837 z=69.1887
+Position in model for gcp 17: x=-17.8122 y=24.7755 z=69.191
+Position in model for gcp 18: x=-17.7604 y=24.7885 z=69.1937
+Position in model for gcp 19: x=34.4618 y=16.7383 z=70.4483
+Position in model for gcp 20: x=34.4624 y=16.6663 z=70.4455
+Position in model for gcp 21: x=34.3653 y=16.7136 z=70.4354
+Position in model for gcp 22: x=34.2639 y=16.7435 z=70.4253
+Position in model for gcp 23: x=7.63307 y=36.074 z=68.9782
+Position in model for gcp 24: x=7.57359 y=36.1832 z=68.9803
+Position in model for gcp 25: x=7.50754 y=36.1677 z=69.0018
+
+Choosing optimal gcp triplet...
+[2 of 4] Mean georeference error 0.0941732 (5, 13, 23)
+[3 of 4] Mean georeference error 0.0933601 (2, 10, 22)
+[1 of 4] Mean georeference error 0.0930154 (8, 10, 23)
+[4 of 4] Mean georeference error 0.0948553 (3, 9, 20)
+Mean georeference error 0.0930154
+Optimal gcp triplet chosen: 8, 10, 23
+
+Final transform:
+[ 1.01109815,	-0.18228174,	-0.00763679,	-5.98932333 ]
+[ -0.18180497,	-1.01027637,	0.04350884,	1.89468474 ]
+[ -0.01522848,	-0.04146605,	-1.02647605,	966.14235048 ]
+[ 0.00000000,	0.00000000,	0.00000000,	1.00000000 ]
+
+Applying transform to mesh...
+.. mesh transformed.
+
+Successfully saved model.
+Successfully loaded 377028 points with corresponding normals from file.
+
+Applying transform to point cloud...
+.. point cloud transformed.
+
+Saving point cloud file to '/mnt/odm/odm_gcp_br/odm_georeferencing/odm_georeferenced_model.ply'...
+.. point cloud file saved.
+
+Saving georeferenced camera positions to /mnt/odm/odm_gcp_br/odm_georeferencing/coords.txt
+...coordinate file saved.
+
+Saving georeference system file to '/mnt/odm/odm_gcp_br/odm_georeferencing/odm_georeferencing_model_geo.txt'...
+... georeference system saved.
