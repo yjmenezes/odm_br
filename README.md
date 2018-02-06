@@ -25,11 +25,13 @@ Scale factor 0.6
 from this:
 EPSG:32722
 658528.361 7167002.098 890.636 2460.6 233.9 IMG_5349.JPG HV01
+
 to this:
 EPSG:32722
 658528.361 7167002.098 890.636 1476.4 140.3 IMG_5349.JPG HV01
 
-and then this: ODM Pixel_X, Pixel_Y must be integers
+and than this: ODM Pixel_X, Pixel_Y must be integers
+
 EPSG:32722
 658528.361 7167002.098 890.636  1476  140  IMG_5349.JPG HV01
 
