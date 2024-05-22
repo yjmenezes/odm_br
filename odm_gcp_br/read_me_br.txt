@@ -2,6 +2,7 @@ Canon PowerShot SX260HS focal 4.5mm wxh 4000x3000 focal ~= 2904 pixel
 GSD: 2.42cm  
 Flight height: 75m
 EPSG:32722 WGS84 UTM 22S
++proj=utm +zone=22 +south +datum=WGS84 +units=m +no_defs
 QGIS x,y=0,0 uper left corner; x:right+; y:up+, down-
 ODM x,y=0,0 uper left corner; x:right+; y:down+ = abs(qgis y)
 GCP x,y=0,0 upper left corner;  x=col, y=row; x={0..width-1}, y={0..height-1};
