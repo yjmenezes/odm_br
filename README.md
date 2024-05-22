@@ -53,6 +53,8 @@ Y axis grows positive downwards.
 
 4- first line must contain EPSG
 
+5- for WebODM version 2.5.0, gcp_list.txt must be plased in the same folder as the images. 
+
 []s
 
 julio
